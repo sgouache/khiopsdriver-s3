@@ -59,7 +59,7 @@ jobs:
         with:
           submodules: true
 
-      - uses: lukka/get-cmake@v3.29.6
+      - uses: lukka/get-cmake@v3.30.2
 
       - name: Restore from cache and setup vcpkg executable and data files.
         uses: lukka/run-vcpkg@v11
